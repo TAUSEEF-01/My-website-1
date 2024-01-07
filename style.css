@@ -14,6 +14,7 @@ body {
     background-position: center;
     position: relative;
     overflow: hidden;
+    background-repeat: no-repeat;
     font-size: 80%;
 }
 
@@ -76,7 +77,6 @@ nav ul li a:hover {
     width: 100%;
     max-width: 190px;
     margin: 2em;
-
 }
 
 .search {
@@ -192,3 +192,93 @@ h1.temp {
     position: absolute;
     bottom: 30px;
 }
+
+
+
+
+@media screen and (max-width: 600px){
+    .card {
+        position: absolute;
+        bottom: 28px;
+        left: 40px;
+        background: transparent;
+        color: white;
+        padding: 1em;
+        border-radius: 30px;
+        width: 100%;
+        max-width: 190px;
+        margin: 2em;
+        bottom: 327px;
+        left: 13%;
+    }
+
+    .container {
+        font-family: "Arial", Helvetica, sans-serif;
+        padding: 3px;
+        color: #ffffff;
+        font-weight: bold;
+        position: absolute;
+        top: 72%;
+        left: 3.5%;
+        transform: translate(50%, -50%);
+        font-size: 25px;
+        white-space: nowrap;
+    }
+
+    .logo {
+        left: 2px;
+        top: 20px;
+        position: absolute;
+        width: 111px;
+        cursor: pointer;
+    }
+
+
+    nav ul li {
+        height: 15px;
+        list-style: none;
+        padding: 6px;
+        border-radius: 20px;
+        display: list-item;
+        list-style: none;
+        margin: 10px 25px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+
+    nav ul li a {
+        right: 95px;
+        position: absolute;
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: bold;
+    }
+
+    .side-bar {
+        left: 45px;
+        position: absolute;
+        top: 690px;
+        width: 100%;
+        display: flex;
+        box-sizing: border-box;
+    }
+
+    .social-links{
+        width: auto;
+        position: unset;
+        transform: none;
+    }
+    
+    .useful-links{
+        width: auto;
+        position: unset;
+    }
+
+    .menu{
+        width: 18px;
+        margin: 0;
+    }
+}
+    
